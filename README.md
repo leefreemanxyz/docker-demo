@@ -32,6 +32,8 @@ LABEL maintainer="Lee Freeman <lee.freeman1@gmail.com>"
 CMD puma -C config/puma.rb
 ```
 
+We're aiming to build a container for a Node.js app (Express server). If this goes well and we do more in the future, then we'll look at deploying a React app as well and then getting the front-end and back-end talking to each other.
+
 Today's goals:
 
 - [ ] ensure 01-server/index.js runs locally
