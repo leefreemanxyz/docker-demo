@@ -41,7 +41,7 @@ Today's goals:
 Stretch goals:
 
 - [ ] optimize your build process
-- [ ] repeat above steps for 02-client
+- [ ] repeat above steps for 02-client (please don't get this far, I haven't written anything)
 - [ ] amend 02-client to fetch data from 01-server and get them speaking to each other.
 
 Resources:
