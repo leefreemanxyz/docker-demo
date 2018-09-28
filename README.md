@@ -32,6 +32,15 @@ LABEL maintainer="Lee Freeman <lee.freeman1@gmail.com>"
 CMD puma -C config/puma.rb
 ```
 
+# A few useful commands
+
+- FROM - The FROM instruction initializes a new build stage and sets the Base Image for subsequent instructions.
+- WORKDIR - The WORKDIR instruction sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile. If the WORKDIR doesn’t exist, it will be created even if it’s not used in any subsequent Dockerfile instruction.
+- COPY - The COPY instruction copies new files or directories from <src> and adds them to the filesystem of the container at the path <dest>.
+- RUN - The RUN instruction will execute any commands in a new layer on top of the current image and commit the results. The resulting committed image will be used for the next step in the Dockerfile.
+- EXPOSE - The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime.
+- CMD - The main purpose of a CMD is to provide defaults for an executing container.
+
 We're aiming to build a container for a Node.js app (Express server). If this goes well and we do more in the future, then we'll look at deploying a React app as well and then getting the front-end and back-end talking to each other.
 
 Today's goals:
